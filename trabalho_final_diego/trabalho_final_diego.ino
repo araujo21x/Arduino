@@ -36,7 +36,7 @@ void loop() {
 
 void iniciar(){
   
-  Serial.begin(9600); //monitoramento serial
+  //Serial.begin(9600);
   lcd.begin(16,2); //display
   dht.begin(); //sensor de umidade e temperatura
   pinMode(sensorUmidade, INPUT);
